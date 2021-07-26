@@ -1,0 +1,69 @@
+body {
+  padding: 10px;
+}
+
+.carousel {
+  position: relative;
+  width: 398px;
+  padding: 10px 40px;
+  border: 1px solid #9999cc;
+  border-radius: 15px;
+  background: #6699ff;
+}
+
+.carousel img {
+  width: 129px;
+  height: 170px;
+  display: block;
+}
+
+.arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #ffff99;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff99cc;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #6699ff;
+  cursor: pointer;
+}
+
+.prev {
+  left: 7px;
+}
+
+.next {
+  right: 7px;
+}
+
+.gallery {
+  width: 390px;
+  overflow: hidden;
+}
+
+.gallery ul {
+  height: 170px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-transition: margin-left 700ms;
+  -o-transition: margin-left 700ms;
+  transition: margin-left 700ms;
+  font-size: 0;
+}
+
+.gallery li {
+  display: inline-block;
+}
